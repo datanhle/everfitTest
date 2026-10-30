@@ -2,7 +2,10 @@
 
 A SwiftUI app that shows the current week (Monday–Sunday) of a user's workouts, with per-day status and local mark/unmark. Data comes from `GET https://mock.internalef.com/workouts` and is cached offline-first in SwiftData.
 
-**Demo video:** _TODO: add link_
+**Demo video:** [Watch on Google Drive](https://drive.google.com/file/d/1Pc_s86ytfD0E0Rvq5QeHWglAd7jPR9ZX/view?usp=sharing)
+
+**Source code:** [github.com/datanhle/everfitTest](https://github.com/datanhle/everfitTest)
+
 
 | | |
 |---|---|

@@ -35,7 +35,7 @@ struct WorkoutRow: View {
     private var card: some View {
         HStack(spacing: AppSpacing.sm) {
             VStack(alignment: .leading, spacing: Metrics.cardTextSpacing) {
-                Text("long text hereeeeeeeeeeeeeee")
+                Text(workout.title)
                     .textStyle(AppTypography.workoutTitle)
                     .foregroundStyle(workout.status.titleColor)
                     .lineLimit(1)
