@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "D99AAEDD-F2CC-4E7E-90A6-F77D309429C1",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "performanceAntipatternCheckerEnabled" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:EverfitTest.xcodeproj",
+      "identifier" : "F15BD1B130936A68005F329F",
+      "name" : "EverfitTest"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:EverfitTest.xcodeproj",
+        "identifier" : "F15BD1BE30936A6E005F329F",
+        "name" : "EverfitTestTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:EverfitTest.xcodeproj",
+        "identifier" : "F15BD1C830936A6E005F329F",
+        "name" : "EverfitTestUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
